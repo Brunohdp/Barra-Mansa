@@ -2,8 +2,7 @@
   min-height: 12.5rem;
   padding-bottom: 2rem;
   margin-bottom: 1rem;
-  overflow-y: hidden;
-  overflow-x: scroll;
+  overflow: hidden;
   position: relative;
 }
 

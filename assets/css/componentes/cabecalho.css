@@ -1,5 +1,5 @@
 .cabecalho {
-  align-items: flex-end;
+  align-items: center;
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
@@ -12,7 +12,8 @@
   width: 11.125rem;
 }
 
-.cabecalho__carrinho {
-  display: none;
-  width: 1.75rem;
+.cabecalho__link {
+  color: var(--preto);
+  font-family: var(--familia-titulo-destaque);
+  font-weight: var(--peso-corpo);
 }
