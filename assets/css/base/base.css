@@ -19,12 +19,11 @@ body {
 }
 
 .titulo--destaque {
-  color: var(--preto);
+  color: var(--marrom-marca);
   display: block;
   font-family: var(--familia-titulo-destaque);
   font-size: var(--tamanho-titulo-destaque);
   font-weight: var(--peso-titulo-destaque);
-  letter-spacing: -1px;
   margin-top: .75rem;
   margin-bottom: .75rem;
 }
