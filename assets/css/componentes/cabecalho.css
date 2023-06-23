@@ -13,7 +13,10 @@
 }
 
 .cabecalho__link {
+  border-left: 2px solid var(--preto);
+  border-right: 2px solid var(--preto);
   color: var(--preto);
   font-family: var(--familia-titulo-destaque);
   font-weight: var(--peso-corpo);
+  padding: .2rem;
 }

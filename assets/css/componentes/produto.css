@@ -23,7 +23,9 @@
 }
 
 .produto__conteudo {
-  position: relative;
+  position: absolute;
+  top: 25%;
+  left: 45%;
   z-index: 2;
 }
 
@@ -36,18 +38,18 @@
   margin-bottom: 1.5rem;
 }
 
-.produto__comprar {
+.produto__mais {
   align-items: center;
   color: var(--marrom-marca);
   display: flex;
 }
 
-.produto__comprar--icone {
+.produto__mais--icone {
   background-image: url(../../svg/seta.svg);
   background-size: contain;
   display: inline-block;
   height: 0.875rem;
-  margin-left: 1.75rem;
+  margin-left: .4rem;
   width: 0.875rem;
 }
 
