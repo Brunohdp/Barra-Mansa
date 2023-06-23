@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="103"
+   height="636"
+   viewBox="0 0 103 636"
+   fill="none"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="splash-rodape.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1.3789308"
+     inkscape:cx="-24.656784"
+     inkscape:cy="318.3626"
+     inkscape:window-width="1920"
+     inkscape:window-height="1057"
+     inkscape:window-x="-8"
+     inkscape:window-y="608"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <path
+     fill-rule="evenodd"
+     clip-rule="evenodd"
+     d="M298.088 5.36807C366.238 -11.5948 441.732 19.2578 494.647 65.4336C544.195 108.672 541.593 183.211 569.902 242.568C601.331 308.464 685.768 360.555 669.328 431.688C652.95 502.549 553.855 511.296 497.242 556.951C441.714 601.731 412.876 696.657 341.544 696.025C269.233 695.385 243.852 595.467 184.482 554.18C129.196 515.732 36.7562 525.997 8.8938 464.69C-18.8452 403.656 28.538 335.085 57.4091 274.577C81.2532 224.605 122.704 190.105 159.608 148.827C205.017 98.0343 231.974 21.8242 298.088 5.36807Z"
+     fill="#FFCB47"
+     id="path2"
+     style="fill:#1e1604;fill-opacity:1" />
+</svg>

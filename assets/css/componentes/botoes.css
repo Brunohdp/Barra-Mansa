@@ -1,0 +1,28 @@
+.botao {
+  align-items: center;
+  background-color: var(--verde-wpp);
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 10px 10px 10px var(--preto-transparente);
+  color: var(--branco);
+  display: flex;
+  font-family: inherit;
+  font-weight: var(--peso-botao);
+  justify-content: center;
+  padding: 1.5rem 0;
+  text-align: center;
+  width: 100%;
+}
+
+.wpp-img {
+  height:2rem;
+  margin-left: 1.5rem;
+  width: 2rem;
+}
+
+.botao--alternativo {
+  background-color: unset;
+  border: 1px solid var(--amarelo);
+  box-shadow: none;
+  color: var(--amarelo);
+}
