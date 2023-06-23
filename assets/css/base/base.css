@@ -28,6 +28,10 @@ body {
   margin-bottom: .75rem;
 }
 
+.titulo--quebra {
+  width: 12rem;
+}
+
 .alinhamento-esquerda {
   text-align: left;
 }
