@@ -13,19 +13,19 @@
   <link rel="stylesheet" href="assets/css/componentes/cabecalho.css">
   <link rel="stylesheet" href="assets/css/componentes/botoes.css">
   <link rel="stylesheet" href="assets/css/chamada.css">
-  <link rel="stylesheet" href="assets/css/chamada_produto.css">
+  <link rel="stylesheet" href="assets/css/chamada_categoria.css">
   <link rel="stylesheet" href="assets/css/componentes/input.css">
   <link rel="stylesheet" href="assets/css/componentes/cartao.css">
   <link rel="stylesheet" href="assets/css/componentes/item.css">
   <link rel="stylesheet" href="assets/css/como-conseguir.css">
-  <link rel="stylesheet" href="assets/css/componentes/produto.css">
+  <link rel="stylesheet" href="assets/css/componentes/produto_categoria.css">
   <link rel="stylesheet" href="assets/css/ofertas.css">
   <link rel="stylesheet" href="assets/css/componentes/video.css">
   <link rel="stylesheet" href="assets/css/componentes/rodape.css">
 </head>
 <body>
   <header class="container cabecalho">
-    <a href="https://goo.gl/maps/uCQQF62CmL5dzcp89" target="_blank"><img src="assets/svg/logo.svg" alt="Logo da página" class="cabecalho__logo"></a>
+    <a href="index.html"><img src="assets/svg/logo.svg" alt="Logo da página" class="cabecalho__logo"></a>
     <a href="#" aria-label="Meu carrinho de compras">
       <img src="assets/svg/carrinho.svg" alt="Ícone do carrinho de Compras" class="cabecalho__carrinho">
     </a>
@@ -33,19 +33,22 @@
 
   <main>
     <section class="chamada container">
-      <h2 class="titulo">Aqui temos o<span class="titulo--destaque">Melhor Madeiramento</span></h2>
+      <h2 class="titulo">Aqui temos o<span class="titulo--destaque alinhamento-meio">Melhor Madeiramento</span></h2>
     </section>
 
     <section class="ofertas container" id="ofertas">
-      <h2 class="titulo alinhamento-meio">Conheça nossos<span class="titulo--destaque">produtos</span></h2>
       <ul>
         <li class="produto">
-          <img src="assets/img/Estrutura interna.jpg" alt="Foto do Produto" class="produto__imagem">
           <div class="produto__conteudo">
-            <h3 class="produto__titulo titulo--destaque">Madeiramento</h3>
-            <p class="produto__preco">Texto?</p>
-            <a href="produto_madeiramento.html" class="produto__comprar">Ver mais!<span class="produto__comprar--icone"></span></a>
+            <h3 class="produto__titulo titulo--destaque">Vigas de Madeira</h3>
+            <p class="texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum vestibulum nisi at vestibulum. Donec et justo at justo rutrum facilisis. Pellentesque scelerisque porta justo.</p>
+            <img src="assets/img/Estrutura interna.jpg" alt="Foto do Produto" class="produto__imagem">
           </div>
+            <div class="produto__descricao">
+              <h2 class="produto__titulo titulo--destaque alinhamento-meio">Descrição do produto</h2>
+              <p class="texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum vestibulum nisi at vestibulum. Donec et justo at justo rutrum facilisis. Pellentesque scelerisque porta justo.</p>
+              <a href="produto_madeiramento.html" class="produto__comprar"><p class="produto__comprar--preco">R$00,00</p><span class="produto__comprar--icone"></span></a>
+            </div>
         </li>
         <li class="produto">
           <div class="corta-imagem"><img src="assets/img/móvel.png" alt="Foto do Produto" class="produto__imagem"></div>
