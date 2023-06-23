@@ -24,6 +24,7 @@ body {
   font-family: var(--familia-titulo-destaque);
   font-size: var(--tamanho-titulo-destaque);
   font-weight: var(--peso-titulo-destaque);
+  letter-spacing: -1px;
   margin-top: .75rem;
   margin-bottom: .75rem;
 }
@@ -37,5 +38,6 @@ body {
 }
 
 .texto {
+  font-weight: var(--peso-corpo);
   line-height: 1.5rem;
 }
