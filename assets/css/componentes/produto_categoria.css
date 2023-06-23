@@ -15,7 +15,7 @@
 }
 
 .produto__imagem {
-  border-radius: 5%;
+  border-radius: 10%;
   height: 13rem;
   margin: 2rem 1rem;
   width: auto;
@@ -38,20 +38,23 @@
   align-items: center;
   color: var(--marrom-marca);
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: 2rem 1rem;
 }
 
 .produto__comprar--preco {
   background-color: var(--amarelo);
   border-radius: .5rem;
+  box-shadow: 5px 5px 10px var(--preto-shadow);
   padding: 1rem;
 }
 
 .produto__comprar--icone {
   background-repeat: no-repeat;
-  background-image:  url(../../svg/wpp.svg), url(../../svg/wpp-back.svg);
-  background-size: contain;
-  height: 1rem;
-  width: 1rem;
+  background-image: url(../../svg/wpp-back.svg);
+  background-size: 3.5rem, contain;
+  border-radius: 50%;
+  box-shadow: 3px 5px 10px var(--preto-shadow);
+  height: 3.5rem;
+  width: 3.5rem;
 }
