@@ -36,3 +36,18 @@
   font-weight: var(--peso-destaque);
   margin-bottom: .5rem;
 }
+
+@media screen and (min-width: 768px) {
+  .rodape {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .rodape__links {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}

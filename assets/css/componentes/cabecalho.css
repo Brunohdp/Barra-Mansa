@@ -5,11 +5,13 @@
   justify-content: space-between;
   padding-bottom: .75rem;
   padding-top: .75rem;
+  position: relative;
   width: 100%;
+  z-index: 1;
 }
 
 .cabecalho__logo {
-  width: 11.125rem;
+  width: 11.5rem;
 }
 
 .cabecalho__link {
@@ -19,4 +21,28 @@
   font-family: var(--familia-titulo-destaque);
   font-weight: var(--peso-corpo);
   padding: .2rem;
+}
+
+
+@media screen and (min-width: 768px) {
+  .cabecalho::before {
+    background-image: url(../../svg/splash-chamada-desk.svg);
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat;
+    content: "";
+    height: 59rem;
+    position: absolute;
+    right: -35rem;
+    top: -35rem;
+    transform: rotate(10deg);
+    width: 130%;
+    z-index: -1;
+  }
+  
+  .cabecalho__link {
+    color: var(--branco);
+    border-color: var(--branco);
+    font-size: var(--tamanho-link);
+  }
 }

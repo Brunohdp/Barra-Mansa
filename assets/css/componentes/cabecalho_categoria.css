@@ -1,0 +1,11 @@
+@media screen and (min-width: 768px) {
+  .cabecalho::before {
+    background: none;
+  }
+
+  .cabecalho__link {
+    border-color: var(--preto);
+    color: var(--preto);
+    font-size: var(--tamanho-link);
+  }
+}
