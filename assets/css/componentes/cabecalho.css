@@ -24,7 +24,7 @@
 }
 
 
-@media screen and (min-width: 763px) {
+@media screen and (min-width: 768px) {
   .cabecalho::before {
     background-image: url(../../svg/splash-chamada-desk.svg);
     background-size: cover;
@@ -47,7 +47,7 @@
   }
 }
 
-@media screen and (min-width: 1020px) {
+@media screen and (min-width: 1024px) {
   .cabecalho::before {
     top: -20rem;
     width: 40%;
@@ -58,7 +58,7 @@
   }
 }
 
-@media screen and (min-width: 1435px) {
+@media screen and (min-width: 1440px) {
   .cabecalho::before {
     top: -20rem;
     width: 45%;
@@ -69,7 +69,7 @@
   }
 }
 
-@media screen and (min-width: 1800px) {
+@media screen and (min-width: 1920px) {
   .cabecalho::before {
     width: 50%;
   }

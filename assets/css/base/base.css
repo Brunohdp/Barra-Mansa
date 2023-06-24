@@ -45,7 +45,7 @@ body {
   line-height: 1.5rem;
 }
 
-@media screen and (min-width: 763px) {
+@media screen and (min-width: 768px) {
   body {
     font-size: var(--tamanho-corpo-tab);
   }
@@ -74,7 +74,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1020px) {
+@media screen and (min-width: 1024px) {
   body {
     font-size: var(--tamanho-corpo-tab);
   }
@@ -92,7 +92,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1435px) {
+@media screen and (min-width: 1440px) {
   body {
     font-size: var(--tamanho-corpo-desk);
   }
@@ -110,7 +110,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1900px) {
+@media screen and (min-width: 1920px) {
   .container {
     padding: 0 15rem;
   }
