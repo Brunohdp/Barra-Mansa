@@ -36,8 +36,27 @@
 }
 
 @media screen and (min-width: 768px) {
+  .lista-item {
+    padding-top: 2rem;
+  }
+  
   .item {
     width: 18rem;
   }
+}
+
+@media screen and (min-width: 1440px) {
+  .lista-item {
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 2.5rem;
+  }
   
+  .item {
+    width: 100%;
+  }  
+  .item:hover {
+    text-decoration: underline;
+  }  
 }

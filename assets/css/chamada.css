@@ -30,10 +30,55 @@
   
   .chamada__imagem {
     border-radius: 50%;
-    display: inline-block;
+    display: block;
     position: absolute;
     right: 5rem;
     top: 12rem;
-    width: 30%;
+    width: 25%;
   }  
+}
+
+@media screen and (min-width: 1024px) {
+  .chamada {
+    padding-top: 5rem;
+  }
+  
+  .chamada__texto {
+    padding-top: 1.5rem;
+    width: 60%;
+  }
+  
+  .chamada__imagem {
+    top: 15rem;
+    right: 4rem;
+    width: 30%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .chamada {
+    padding-top: 5rem;
+  }
+  
+  .chamada__texto {
+    padding-top: 3rem;
+    width: 55%;
+  }
+  
+  .chamada__imagem {
+    top: 13rem;
+    right: 7rem;
+    width: 30%;
+  }
+}
+
+@media screen and (min-width: 1920px) {  
+  .chamada__texto {
+    width: 40%;
+  }
+  
+  .chamada__imagem {
+    top: 5rem;
+    right: 20rem;
+  }
 }

@@ -1,3 +1,7 @@
+.lista__produto {
+  padding-top: 1.5rem;
+}
+
 .produto {
   background-color: var(--branco);
   box-shadow: 10px 10px 30px var(--preto-transparente);
@@ -64,10 +68,14 @@
 }
 
 @media screen and (min-width: 768px) {
+  .lista__produto {
+    padding-top: 2rem;
+  }
+
   .produto {
     height: 17rem;
   }
-
+  
   .produto__imagem {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;

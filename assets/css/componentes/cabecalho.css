@@ -46,3 +46,31 @@
     font-size: var(--tamanho-corpo-tab);
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .cabecalho::before {
+    top: -20rem;
+    width: 40%;
+  }
+
+  .cabecalho__link:hover {
+    text-decoration: underline;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .cabecalho::before {
+    top: -20rem;
+    width: 45%;
+  }
+
+  .cabecalho__link {
+  font-size: var(--tamanho-corpo-desk);
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .cabecalho::before {
+    width: 50%;
+  }
+}

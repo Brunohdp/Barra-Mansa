@@ -31,10 +31,32 @@
   .botao {
     font-size: var(--tamanho-corpo-tab);
   }
-
+  
   .wpp-img {
     height: 2.5rem;
     margin-left: 2.5rem;
     width: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .botao {
+    font-size: var(--tamanho-corpo-tab);
+    margin-left: 2rem;
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .botao {
+    font-size: var(--tamanho-corpo-desk);
+    margin-left: 5rem;
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .botao {
+    width: 30%;
   }
 }
