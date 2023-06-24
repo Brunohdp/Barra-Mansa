@@ -28,15 +28,15 @@
   .cabecalho::before {
     background-image: url(../../svg/splash-chamada-desk.svg);
     background-size: cover;
-    background-position: center ;
+    background-position: left center;
     background-repeat: no-repeat;
     content: "";
     height: 59rem;
     position: absolute;
-    right: -35rem;
+    right: 0;
     top: -35rem;
-    transform: rotate(10deg);
-    width: 130%;
+    overflow: hidden;
+    width: 50%;
     z-index: -1;
   }
   
