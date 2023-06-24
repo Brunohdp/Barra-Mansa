@@ -27,7 +27,7 @@
   color: var(--amarelo);
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 763px) {
   .botao {
     font-size: var(--tamanho-corpo-tab);
   }
@@ -39,7 +39,7 @@
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1020px) {
   .botao {
     font-size: var(--tamanho-corpo-tab);
     margin-left: 2rem;
@@ -47,7 +47,7 @@
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1435px) {
   .botao {
     font-size: var(--tamanho-corpo-desk);
     margin-left: 5rem;
@@ -55,7 +55,7 @@
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1900px) {
   .botao {
     width: 30%;
   }
