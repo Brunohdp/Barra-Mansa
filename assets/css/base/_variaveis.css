@@ -17,9 +17,19 @@
   --peso-destaque: 700;
   --peso-corpo: 700;
 
-  --tamano-corpo: 1rem;
+  --tamanho-corpo: 1rem;
   --tamanho-titulo: 1.375rem;
   --tamanho-titulo-destaque: 2rem;
   --tamanho-destaque: 1.375rem;
-  --tamanho-link: 1.5rem;
+
+  
+  --tamanho-corpo-tab: 1.25rem;
+  --tamanho-titulo-tab: 2.062rem;
+  --tamanho-titulo-destaque-tab: 3rem;
+  --tamanho-destaque-tab: 2.062rem;
+
+  --tamanho-corpo-desk: 2rem;
+  --tamanho-titulo-desk: 2.750rem;
+  --tamanho-titulo-destaque-desk: 4rem;
+  --tamanho-destaque-desk: 2.750rem;
 }

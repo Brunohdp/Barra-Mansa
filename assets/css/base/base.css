@@ -1,5 +1,5 @@
-@import url(_variaveis.css);
 @import url(_reset.css);
+@import url(_variaveis.css);
 
 body {
   background-image: url(../../img/fundo-textura.png);
@@ -46,11 +46,27 @@ body {
 }
 
 @media screen and (min-width: 768px) {
+  body {
+    font-size: var(--tamanho-corpo-tab);
+  }
+
   .container {
     padding: 0 2rem;
   }
 
+  .titulo {
+    font-size: var(--tamanho-titulo-tab);
+  }
+
+  .titulo--destaque {
+    font-size: var(--tamanho-titulo-destaque-tab);
+  }
+
+  .texto {
+    line-height: 2rem;
+  }
+
   .titulo--quebra {
-    width: 18rem;
+    width: 25rem;
   }
 }

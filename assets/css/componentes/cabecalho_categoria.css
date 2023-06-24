@@ -6,6 +6,5 @@
   .cabecalho__link {
     border-color: var(--preto);
     color: var(--preto);
-    font-size: var(--tamanho-link);
   }
 }

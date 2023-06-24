@@ -50,4 +50,13 @@
     flex-direction: column;
     justify-content: center;
   }
+
+  .rodape__unidade {
+    font-size: var(--tamanho-corpo);
+    line-height: 1.25rem;
+  }
+
+  .rodape__unidade-titulo {
+    font-size: var(--tamanho-destaque);
+  }
 }

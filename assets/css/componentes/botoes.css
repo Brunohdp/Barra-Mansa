@@ -26,3 +26,15 @@
   box-shadow: none;
   color: var(--amarelo);
 }
+
+@media screen and (min-width: 768px) {
+  .botao {
+    font-size: var(--tamanho-corpo-tab);
+  }
+
+  .wpp-img {
+    height: 2.5rem;
+    margin-left: 2.5rem;
+    width: 2.5rem;
+  }
+}

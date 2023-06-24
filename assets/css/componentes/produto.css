@@ -23,8 +23,11 @@
 }
 
 .produto__conteudo {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
   position: absolute;
-  top: 25%;
+  top: 30%;
   left: 45%;
   z-index: 2;
 }
@@ -58,4 +61,24 @@
     overflow-x: visible;
   }
   
+}
+
+@media screen and (min-width: 768px) {
+  .produto {
+    height: 17rem;
+  }
+
+  .produto__imagem {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    left: 0;
+  }
+
+  .produto__conteudo {
+    left: 55%;
+  }
+
+  .produto__conteudo-primeiro {
+    left: 45%;
+  }
 }

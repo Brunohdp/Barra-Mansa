@@ -34,15 +34,15 @@
     height: 59rem;
     position: absolute;
     right: 0;
-    top: -35rem;
+    top: -25rem;
     overflow: hidden;
-    width: 50%;
+    width: 37%;
     z-index: -1;
   }
   
   .cabecalho__link {
     color: var(--branco);
     border-color: var(--branco);
-    font-size: var(--tamanho-link);
+    font-size: var(--tamanho-corpo-tab);
   }
 }
