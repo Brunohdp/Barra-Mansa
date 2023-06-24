@@ -4,7 +4,8 @@
   background-position: top -11rem right;
   background-repeat: no-repeat;
   padding-top: 1.5rem;
-  padding-bottom: 2.5rem;
+  padding-bottom: 1.5rem;
+  position: relative;
 }
 
 .rodape__logo {
@@ -15,7 +16,7 @@
 .rodape__social {
   align-items: center;
   display: flex;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .rodape__social-media {
@@ -26,7 +27,7 @@
 }
 
 .rodape__unidade {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .rodape__unidade-titulo {
@@ -37,11 +38,19 @@
   margin-bottom: .5rem;
 }
 
+.rodape__ilustra {
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
   .rodape {
     align-items: center;
     display: flex;
     justify-content: space-around;
+  }
+
+  .rodape__social {
+    margin-bottom: 0;
   }
 
   .rodape__links {
@@ -54,9 +63,49 @@
   .rodape__unidade {
     font-size: var(--tamanho-corpo);
     line-height: 1.25rem;
+    margin-bottom: 0;
   }
 
   .rodape__unidade-titulo {
     font-size: var(--tamanho-destaque);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .rodape {
+    justify-content: flex-start;
+  }
+  
+  .rodape::after {
+    background-image: url(../../svg/Ilustra.svg);
+    background-size: 27%;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    content: "";
+    height: 59rem;
+    position: absolute;
+    right: 2rem;
+    bottom: 0;
+    overflow: hidden;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .rodape__unidade {
+    margin-left: 9rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .rodape {
+    justify-content: center;
+  }
+  
+  .rodape::after {
+    background-size: 20%;
+  }
+
+  .rodape__unidade {
+    margin-left: 15rem;
   }
 }

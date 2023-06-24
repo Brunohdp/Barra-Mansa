@@ -123,6 +123,10 @@
     width: 100%;
   }
 
+  .produto__titulo {
+    font-size: var(--tamanho-titulo-desk);
+  }
+
   .produto__mais:hover {
     text-decoration: underline;
   }
