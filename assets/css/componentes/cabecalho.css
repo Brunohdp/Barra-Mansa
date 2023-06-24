@@ -69,7 +69,7 @@
   }
 }
 
-@media screen and (min-width: 1880px) {
+@media screen and (min-width: 1800px) {
   .cabecalho::before {
     width: 50%;
   }
