@@ -11,6 +11,11 @@
   width: 15rem;
 }
 
+.item-localizacao {
+  margin-left: auto;
+  margin-top: 1rem;
+}
+
 .item__icone {
   background-color: var(--marrom-marca);
   background-position: center;
@@ -31,8 +36,8 @@
   background-image: url(../../svg/cart.svg);
 }
 
-.item__icone--caminhao {
-  background-image: url(../../svg/truck.svg);
+.item__icone--maps {
+  background-image: url(../../svg/maps-branco.svg);
 }
 
 @media screen and (min-width: 768px) {
@@ -43,6 +48,10 @@
   .item {
     width: 18rem;
   }
+
+  .item:hover {
+    text-decoration: underline;
+  }  
 }
 
 @media screen and (min-width: 1440px) {
@@ -55,8 +64,5 @@
   
   .item {
     width: 100%;
-  }  
-  .item:hover {
-    text-decoration: underline;
   }  
 }

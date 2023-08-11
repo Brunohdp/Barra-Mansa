@@ -4,7 +4,7 @@
 body {
   background-image: url(../../img/fundo-textura.png);
   background-position: center;
-  color: var(--cinza);
+  color: var(--preto);
   font-family: var(--familia-corpo);
   font-size: var(--tamanho-corpo);
 }
